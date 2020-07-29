@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!--Watson Assistant service credentials-->
+    <!-- REPLACE `ASSISTANT_ID_HERE` with ID of the Assistant to use -->
+    <string name="assistant_id">748b366e-ba83-437e-95d7-3f5846166e32</string>
+
+    <!-- REPLACE `ASSISTANT_API_KEY_HERE` with Watson Assistant service API Key-->
+    <string name="assistant_apikey">KYTobAfO3LOLQNOVguDWh7lEiPTb32b5ZLthUc6sLmdS</string>
+
+    <!-- REPLACE `ASSISTANT_URL_HERE` with Watson Assistant service URL-->
+    <string name="assistant_url">https://api.au-syd.assistant.watson.cloud.ibm.com/instances/842d1589-3886-4f9d-acfc-0670b4d134f9</string>
+
+
+    <!--Watson Speech To Text(STT) service credentials-->
+    <!-- REPLACE `STT_API_KEY_HERE` with Watson Speech to Text service API Key-->
+    <string name="STT_apikey">5VD1Xmqc2oTyPR4gIpHs_WZExRUdTNK58rvbm3tgcCA9</string>
+
+    <!-- REPLACE `STT_URL_HERE` with Watson Speech to Text service URL-->
+    <string name="STT_url">https://api.au-syd.speech-to-text.watson.cloud.ibm.com/instances/217f601d-2492-48d2-b339-6de29a26d228</string>
+
+
+    <!--Watson Text To Speech(TTS) service credentials-->
+    <!-- REPLACE `TTS_API_KEY_HERE` with Watson Text to Speech service API Key-->
+    <string name="TTS_apikey">1ZgbC-vY7hOiMvhfA5EahGTT-32wLBzZe6yNpN4HsIvQ</string>
+
+    <!-- REPLACE `TTS_URL_HERE` with Watson Text to Speech service URL-->
+    <string name="TTS_url">https://api.au-syd.text-to-speech.watson.cloud.ibm.com/instances/adcf5cb0-37ba-4ac1-8836-dbd97c6dc7a4</string>
+</resources>

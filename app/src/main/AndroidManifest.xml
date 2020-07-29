@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.C19.Auxilium">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher_round"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.example.C19.Auxilium.Donation" android:label="PM Relief Donate" ></activity>
+        <activity android:name="com.example.C19.Auxilium.Feedback" />
+        <activity
+            android:name="com.example.C19.Auxilium.twitt"
+            android:label="Minister Tweet" />
+        <activity android:name="com.example.C19.Auxilium.safeornot" />
+        <activity
+            android:name="com.example.C19.Auxilium.MapActivity"
+            android:label="Nearby Hospitals" />
+        <activity
+            android:name="com.example.C19.Auxilium.mapfirstactivity"
+            android:label="C-19 Auxilium" />
+        <activity
+            android:name="com.example.C19.Auxilium.Splash"
+            android:label="C-19 Auxilium">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.C19.Auxilium.Factivity"
+            android:label="C-19 Auxilium" />
+        <activity
+            android:name="com.example.C19.Auxilium.MainActivity"
+            android:label="C-19 Auxilium"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name="com.example.C19.Auxilium.SplashActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/SplashTheme" />
+        <activity
+            android:name="com.example.C19.Auxilium.Qentry"
+            android:label="C-19 Auxilium" />
+        <activity
+            android:name="com.example.C19.Auxilium.Fdays"
+            android:label="C-19 Auxilium" />
+        <activity
+            android:name="com.example.C19.Auxilium.Mydistrict"
+            android:label="C-19 Auxilium" />
+        <activity
+            android:name="com.example.C19.Auxilium.Onetimescreen"
+            android:label="C-19 Auxilium">
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyC2xW4hedTk-dKuQcL0-BV1Fl8hiB-nkOE" />
+    </application>
+
+</manifest>
